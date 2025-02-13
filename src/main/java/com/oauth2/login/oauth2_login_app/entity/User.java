@@ -1,4 +1,4 @@
-package com.oauth2.login.entity;
+package com.oauth2.login.oauth2_login_app.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -15,6 +15,5 @@ public class User {
     private String oauth2Provider;
     private String oauth2Id;
     private LocalDateTime createdAt;
-
     // Getters and Setters
 }
